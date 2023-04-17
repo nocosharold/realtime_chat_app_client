@@ -96,7 +96,7 @@
 .chat-window {
   width: 400px;
   height: calc(100%);
-  min-height: 
+  min-height: 400px;
   background-color: #F6F8FC;
   border-radius: 20px;
   @media only screen and (max-width: 425px) {
