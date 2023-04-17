@@ -126,9 +126,9 @@
 
 .chat-window .chat-body {
   height: calc(100% - 160px);
-  min-height: 400px;
+  min-height: 300px;
   border-bottom: 1px solid #F3F3F7;
-  background: #fff;
+  background: #F6F8FC;
 
   position: relative;
 }
