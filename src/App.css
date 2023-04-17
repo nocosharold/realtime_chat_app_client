@@ -30,6 +30,7 @@ body {
   padding: 55px;
   width: 400px;
   @media only screen and (max-width: 425px) {
+    background-color: red;
     padding: 40px 16px;
     width: calc(100% - 32px);
   }
@@ -93,6 +94,7 @@ body {
   border-radius: 20px;
   @media only screen and (max-width: 425px) {
     width: 100%;
+    height: 100vh;
   }
 }
 
@@ -116,7 +118,7 @@ body {
 }
 
 .chat-window .chat-body {
-  height: calc(746px - (45px + 70px));
+  height: calc(100vh - 17vh);
   border-bottom: 1px solid #F3F3F7;
   background: #fff;
 
