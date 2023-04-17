@@ -13,6 +13,13 @@ body {
 }
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 
+.App{
+  @media only screen and (max-width: 425px) {
+    padding: 16px;
+    width: calc(100% - 32px);
+  }
+}
+
 .joinChatContainer {
   display: flex;
   flex-direction: column;
@@ -22,11 +29,18 @@ body {
   border-radius: 20px;
   padding: 55px;
   width: 400px;
+  @media only screen and (max-width: 425px) {
+    padding: 40px 16px;
+    width: calc(100% - 32px);
+  }
 }
 
 .joinChatContainer h3 {
   font-size: 2.5rem;
   margin: 0;
+  @media only screen and (max-width: 425px) {
+    font-size: 2.25rem;
+  }
 }
 .joinChatContainer input {
   width: 100%;
@@ -37,6 +51,9 @@ body {
   padding: 5px;
   font-size: 16px;
   transition: all 0.21s ease-in-out;
+  @media only screen and (max-width: 425px) {
+    width: calc(100% - 16px);
+  }
 }
 
 .joinChatContainer label {
@@ -60,6 +77,9 @@ body {
   color: #fff;
   cursor: pointer;
   transition: all 0.21s ease-in-out;
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+  }
 }
 
 .joinChatContainer button:hover {
@@ -71,6 +91,9 @@ body {
   height: 800px;
   background-color: #F6F8FC;
   border-radius: 20px;
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+  }
 }
 
 .chat-window p {
@@ -196,8 +219,6 @@ body {
   padding: 0 0.7em;
   font-size: 1em;
   background-color: transparent;
-  /* border-right: 1px dotted #607d8b; */
-
   outline: none;
   font-family: "Open Sans", sans-serif;
 }
@@ -224,8 +245,6 @@ body {
 }
 
 .react-scroll-to-bottom{
-  /* content: "&darr;";
-   */
    background-color: red;
 }
 
