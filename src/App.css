@@ -126,6 +126,8 @@
 
 .chat-window .chat-body {
   height: calc(100% - 160px);
+  min-height: 400px;
+  max-height: 400px;
   border-bottom: 1px solid #F3F3F7;
   background: #fff;
 
